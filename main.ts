@@ -7,7 +7,7 @@ function ZeigePfeilLinks () {
             led.plot(x, y)
             y += 1
         }
-        basic.pause(100)
+        basic.pause(20)
         if (x > 2) {
             y = 0
             x += -1
@@ -56,7 +56,7 @@ function ZeigePfeilRechts () {
             led.plot(x, y)
             y += 1
         }
-        basic.pause(100)
+        basic.pause(20)
         if (x <= 1) {
             y = 0
             x += 1
